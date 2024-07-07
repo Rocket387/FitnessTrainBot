@@ -1,0 +1,383 @@
+{
+    "intents": [
+
+        {
+            "tag": "google",
+            "patterns": [
+                "google",
+                "search",
+                "internet"
+            ],
+            "responses": [
+                "Redirecting to Google..."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a Fitness chatbot. My capabilities are : \n 1. I can chat with you about exercise, workouts and nutrition. Try asking me for exercises and workouts! \n 2. Ask me for nutrition tips \n 3. I can google search for you. Use format google: your query \n 4. I can get you the top 10 trending youtube videos. \n 5. I can tell you a riddle. \n For suggestions to help me improve, send an email to ........ Thank you!! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "legs",
+            "patterns": [
+                "Tell me a leg exercise",
+                "legs",
+                "Make me a leg workout"
+            ],
+            "responses": [
+                "Squats",
+                "Lunges",
+                "Box Squats",
+                "Glutebridges",
+                "Step Ups",
+                "Side Step Ups",
+                "Straight Leg Deadlifts",
+                "Single leg Straight Leg Deadlifts",
+                "Calf raises",
+                "Leg extension",
+                "Leg curl"
+            ],
+            "context": [
+                "legs"
+            ]
+        },
+        {
+            "tag": "Chest",
+            "patterns": [
+                "Tell me a chest exercise",
+                "chest",
+                "Make me a chest workout"
+            ],
+            "responses": [
+                "Bench press",
+                "Press ups",
+                "Cable flyes",
+                "Cable crossovers",
+                "Dumbbell press",
+                "Dumbbell flyes"
+            ],
+            "context": [
+                "chest"
+            ]
+        },
+        {
+            "tag": "Back",
+            "patterns": [
+                "Tell me a back exercise",
+                "back",
+                "Make me a back workout"
+            ],
+            "responses": [
+                "Pull ups",
+                "Bent Over Rows",
+                "Deadlifts",
+                "Reverse flyes",
+                "Cable rows",
+                "Face Pulls",
+                "Inverted rows",
+                "Lat pull downs"
+            ],
+            "context": [
+                "back"
+            ]
+        },
+        {
+            "tag": "Biceps",
+            "patterns": [
+                "Tell me a bicep exercise",
+                "biceps",
+                "Make me a bicep workout",
+                "bi's",
+                "bis"
+            ],
+            "responses": [
+                "Bicep curls",
+                "Hammer curls",
+                "Preacher curls",
+                "Zottman curls",
+                "Barbell curls",
+                "Seated curls"
+            ],
+            "context": [
+                "biceps"
+            ]
+        },
+        {
+            "tag": "triceps",
+            "patterns": [
+                "Tell me a tricep exercise",
+                "triceps",
+                "Make me a tricep workout",
+                "tri's",
+                "tris"
+            ],
+            "responses": [
+                "Kickbacks",
+                "overhead extensions",
+                "Cable tricep pulldowns",
+                "Dips",
+                "Skull Crushers",
+                "triangle grip press ups"
+            ],
+            "context": [
+                "triceps"
+            ]
+        },
+        {
+            "tag": "shoulders",
+            "patterns": [
+                "Tell me a shoulder exercise",
+                "shoulders",
+                "Make me a shoulder workout"
+            ],
+            "responses": [
+                "Clean & Press",
+                "Snatches",
+                "Shoulder press",
+                "Frontal raise",
+                "lat raise",
+                "Arnie press"
+            ],
+            "context": [
+                "shoulders"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am RockitFit, a Deep-Learning chatbot"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Rochelle Charles."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+
+                "you are dumb",
+                "shut up",
+                "idiot"
+            ],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you up to"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "contact developer",
+                "contact Rochelle",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at her Linkedin profile : ......"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicety",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to ......... Thank you for helping me improve!"
+            ]
+        },
+            {"tag": "riddle",
+            "patterns": [
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
+            ],
+            "responses": [
+                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+                " How can a girl go 25 days without sleep?.....She sleeps and night!",
+                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                " What will you actually find at the end of every rainbow?.....The letter 'w'",
+                "What can be caught but never thrown?.....A cold!",
+                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
+                "Why can't a bike stand on it's own?.....It is two-tired."
+            ],
+            "context": [
+                "riddles"
+            ]
+        }
+    ]
+}
